@@ -1,0 +1,197 @@
+.news-wrap .banner-box {
+  position: relative;
+}
+.news-wrap .banner-box img {
+  width: 100%;
+  height: auto;
+}
+.news-wrap .banner-box .txt-box {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.news-wrap .banner-box .txt-box h3 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.news-wrap .banner-box .txt-box p {
+  font-size: 16px;
+}
+.news-wrap .links-box {
+  height: 100px;
+  line-height: 100px;
+}
+.news-wrap .links-box a {
+  position: relative;
+  display: block;
+  height: 100%;
+  float: left;
+  font-size: 14px;
+  color: #999999;
+  text-decoration: none;
+  margin-right: 55px;
+}
+.news-wrap .links-box a:before {
+  position: absolute;
+  content: '';
+  left: 50%;
+  width: 0;
+  bottom: -1px;
+  height: 3px;
+  background: #ffb418;
+}
+.news-wrap .links-box a.active,
+.news-wrap .links-box a:hover {
+  color: #222;
+}
+.news-wrap .links-box a.active:before,
+.news-wrap .links-box a:hover:before {
+  width: 100%;
+  left: 0;
+  -webkit-transition: left 0.3s,width 0.3s;
+  transition: left 0.3s,width 0.3s;
+}
+.news-wrap .all-item {
+  padding-top: 70px;
+  background: #f7f7f7;
+  padding-bottom: 70px;
+}
+.news-wrap .all-item .row {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.news-wrap .all-item .item-box {
+  width: 33.33%;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+.news-wrap .all-item .item-box a {
+  display: block;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+.news-wrap .all-item .item-box a:hover {
+  z-index: 2;
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  -webkit-transform: translate3d(0, -2px, 0);
+  transform: translate3d(0, -2px, 0);
+}
+.news-wrap .all-item .item-box img {
+  width: 100%;
+}
+.news-wrap .all-item .item-box .txt-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+.news-wrap .all-item .item-box .txt-box h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #222;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+.news-wrap .all-item .item-box .txt-box p {
+  font-size: 14px;
+  color: #999999;
+}
+.news-wrap .all-item .item-box .txt-box p.time {
+  font-size: 12px;
+  color: #222;
+}
+.news-wrap .all-item .item-box a {
+  color: #222;
+  text-decoration: none;
+}
+.news-wrap .page-box {
+  text-align: center;
+}
+.news-wrap .page-box em {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: #999999;
+  cursor: pointer;
+}
+.news-wrap .page-box em.active {
+  color: #222222;
+}
+@media screen and (max-width: 1024px) {
+  .news-wrap .banner-box {
+    position: relative;
+    height: 40vh;
+    overflow: hidden;
+    text-align: center;
+  }
+  .news-wrap .banner-box img {
+    position: absolute;
+    left: 0%;
+    height: 100%;
+    width: auto;
+  }
+  .news-wrap .banner-box .txt-box {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .news-wrap .banner-box .txt-box h3 {
+    font-size: 16px;
+  }
+  .news-wrap .banner-box .txt-box p {
+    font-size: 12px;
+  }
+  .news-wrap .links-box {
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+  .news-wrap .links-box a {
+    margin: 0;
+    width: 25%;
+    text-align: center;
+    font-size: 12px;
+  }
+  .news-wrap .all-item {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .news-wrap .all-item .row {
+    margin: 0;
+  }
+  .news-wrap .all-item .item-box {
+    width: 100%;
+    margin-bottom: 15px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .news-wrap .all-item .item-box .txt-box {
+    background: #fff;
+    padding: 15px;
+  }
+  .news-wrap .all-item .item-box .txt-box h3 {
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  .news-wrap .all-item .item-box .txt-box p {
+    font-size: 12px;
+  }
+  .news-wrap .page-box em {
+    font-size: 13px;
+  }
+}
+/*# sourceMappingURL=news.css.map */
