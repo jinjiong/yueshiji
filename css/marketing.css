@@ -749,13 +749,16 @@
     margin-top: 10px;
   }
   .marketing-wrap .session_6 .all-item .item-box .txt-box .tab-box span {
-    width: 90px;
+    min-width: 90px;
     font-size: 12px;
     margin-bottom: 10px;
   }
   .marketing-wrap .session_6 .all-item .item-box .txt-box .tab-box span:nth-child(2) {
     margin-left: 8px;
     margin-right: 8px;
+  }
+  .marketing-wrap .session_6 .all-item .item-box .txt-box .tab-box span:nth-child(4) {
+    margin-left: 8px;
   }
   .marketing-wrap .session_6 .all-item .item-box .line-box {
     display: none;
